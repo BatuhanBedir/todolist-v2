@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const url = 'mongodb://localhost:27017/todolistDB';
+const url = 'mongodb+srv://admin-batuhan:Test123@cluster0.h6wpvcv.mongodb.net/todolistDB';
 const options = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
